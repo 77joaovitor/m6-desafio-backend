@@ -1,0 +1,23 @@
+CNAB-API
+
+Clone the repository
+
+Ap start
+
+- create virtual enviroment python -m venv venv
+
+- Activate source venv/bin/activate
+
+- instal dependences pip install -r requirements.txt
+
+- make migrations python manage.py makemigrations
+
+- run migrations python manage.py migrate
+
+- run server migrations python manage.py runserver
+
+You app is host in localhost:8000
+
+- baseurl http://localhost:8000/api/
+- upload url http://localhost:8000/api/upload/
+- total-value-shop url http://localhost:8000/api/value/
